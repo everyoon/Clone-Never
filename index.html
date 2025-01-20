@@ -3,7 +3,188 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Never</title>
   </head>
-  <body></body>
+  <body>
+    <div class="wrap">
+      <header class="header">
+        <div class="header_inner">
+          <div class="search_special_bg"></div>
+          <div class="search_area">
+            <div class="search_inner">
+              <h1>
+                <a href="/">
+                  <span class="icon_logo">
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M16.273 12.845 7.376 0H0v24h7.727V11.155L16.624 24H24V0h-7.727v12.845z"></path>
+                    </svg>
+                  </span>
+                  <span class="blind">NAVER</span>
+                </a>
+              </h1>
+              <form action="" class="search" method="get">
+                <fieldset>
+                  <legend class="blind">검색</legend>
+                  <div class="input_box">
+                    <input
+                      type="search"
+                      class="search_input"
+                      title="검색어를 입력해 주세요."
+                      placeholder="검색어를 입력해 주세요."
+                      maxlength="255"
+                      autocomplete="off"
+                    />
+                  </div>
+                  <button class="btn-search" type="submit">
+                    <span class="icon_search">
+                      <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg" style="fill: #03c75a">
+                        <path
+                          d="M22.13.5c11.378 0 20.632 9.256 20.632 20.63 0 4.699-1.566 9.155-4.439 12.782l10.164 10.165a2.41 2.41 0 0 1-1.706 4.115 2.412 2.412 0 0 1-1.706-.705L33.31 35.719a2.41 2.41 0 0 1 0-3.41 15.71 15.71 0 0 0 4.628-11.178c0-8.718-7.09-15.808-15.807-15.808-8.718 0-15.808 7.09-15.808 15.808 0 7.15 4.817 13.43 11.714 15.273a2.41 2.41 0 0 1 1.705 2.954 2.41 2.41 0 0 1-2.95 1.705C7.788 38.658 1.5 30.46 1.5 21.131 1.5 9.756 10.756.5 22.13.5zm4.716 34.746a3.483 3.483 0 1 1 0 6.966 3.483 3.483 0 0 1 0-6.966z"
+                        ></path>
+                      </svg>
+                    </span>
+                    <span class="blind">검색</span>
+                  </button>
+                </fieldset>
+              </form>
+              <div class="search_box">
+                <button class="btn-keyboard"><span class="blind">입력도구</span></button>
+                <button class="btn_arrow"><span class="blind">자동완성/최근검색어펼치기</span></button>
+              </div>
+            </div>
+          </div>
+          <div class="search_right-second">
+            <a href="javascript:void(0)" class="link_headline" target="_blank">
+              <img
+                src="./images/right-second_img.png"
+                alt="[광고]뉴트리원 요즘 인기 파로 효소 설 선물 특가 바로 지금"
+                width="244"
+                height="108"
+              />
+            </a>
+          </div>
+          <div class="shortcut_area">
+            <ul class="shortcut_list">
+              <li class="shortcut_item">
+                <a href="javascript:void(0)" target="_blank">
+                  <span class="service_icon type_mail"></span>
+                  <span class="service_name">메일</span>
+                </a>
+              </li>
+              <li class="shortcut_item">
+                <a href="javascript:void(0)" target="_blank">
+                  <span class="service_icon type_cafe"></span>
+                  <span class="service_name">카페</span>
+                </a>
+              </li>
+              <li class="shortcut_item">
+                <a href="javascript:void(0)" target="_blank">
+                  <span class="service_icon type_blog"></span>
+                  <span class="service_name">블로그</span>
+                </a>
+              </li>
+              <li class="shortcut_item">
+                <a href="javascript:void(0)" target="_blank">
+                  <span class="service_icon type_shopping"></span>
+                  <span class="service_name">스토어</span>
+                </a>
+              </li>
+              <li class="shortcut_item">
+                <a href="javascript:void(0)" target="_blank">
+                  <span class="service_icon type_news"></span>
+                  <span class="service_name">뉴스</span>
+                </a>
+              </li>
+              <li class="shortcut_item">
+                <a href="javascript:void(0)" target="_blank">
+                  <span class="service_icon type_stock"></span>
+                  <span class="service_name">증권</span>
+                </a>
+              </li>
+              <li class="shortcut_item">
+                <a href="javascript:void(0)" target="_blank">
+                  <span class="service_icon type_real"></span>
+                  <span class="service_name">부동산</span>
+                </a>
+              </li>
+              <li class="shortcut_item">
+                <a href="javascript:void(0)" target="_blank">
+                  <span class="service_icon type_map"></span>
+                  <span class="service_name">지도</span>
+                </a>
+              </li>
+              <li class="shortcut_item">
+                <a href="javascript:void(0)" target="_blank">
+                  <span class="service_icon type_webtoon"></span>
+                  <span class="service_name">웹툰</span>
+                </a>
+              </li>
+              <li class="shortcut_item">
+                <a href="javascript:void(0)" target="_blank">
+                  <span class="service_icon">
+                    <img src="./images/memo_icon.png" alt="메모" width="40" height="40" class="service_img" />
+                  </span>
+                  <span class="service_name">메모</span>
+                  <i class="ico_recommend">
+                    <span class="blind">추천</span>
+                  </i>
+                </a>
+              </li>
+              <li class="shortcut_item">
+                <a href="javascript:void(0)">
+                  <span class="service_icon type_more"></span>
+                  <span class="blind">바로가기 펼침</span>
+                </a>
+              </li>
+              <li class="shortcut_item">
+                <a href="javascript:void(0)" target="_blank" class="link_service">
+                  <span class="service_icon">
+                    <span class="service_ad" style="background-image: url(../images/service_ad_icon.jpg)"></span>
+                  </span>
+                  <span class="service_name">뉴트리원</span>
+                  <i class="ico_ad">
+                    <span class="blind">AD</span>
+                  </i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="menu_area">
+            <button class="btn_menu" type="button" aria-haspopup="menu" aria-expanded="false">
+              <span class="blind">확장 영역</span>
+            </button>
+          </div>
+          <div class="pay_area">
+            <a href="javascript:void(0)" class="link_pay" target="_blank">
+              <span class="blind">페이 바로가기</span>
+            </a>
+          </div>
+          <div class="talk_area">
+            <button class="btn_talk" type="button" aria-haspopup="menu" aria-expanded="false">
+              <span class="blind">톡</span>
+            </button>
+          </div>
+          <div class="notify_area">
+            <button class="btn_notify" type="button" aria-haspopup="menu" aria-expanded="false">
+              <span class="blind">알림</span>
+            </button>
+          </div>
+          <div class="shopping_area">
+            <a
+              href="javascript:void(0)"
+              class="link_shopping"
+              target="_blank"
+              aria-haspopup="menu"
+              aria-expanded="false"
+            >
+              <span class="blind">장바구니</span>
+              <span class="blind">알림</span>
+            </a>
+          </div>
+        </div>
+      </header>
+    </div>
+  </body>
 </html>
